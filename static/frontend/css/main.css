@@ -94,8 +94,8 @@ label {
 
 .btn:hover,
 .btn:focus {
-    background-color: #992337;
-    border-color: #992337;
+    background-color: #006bb3;
+    border-color: #006bb3;
     color: #fff;
 }
 
@@ -707,8 +707,8 @@ input:focus {
 
 .sign-in-box .btn-sign-up:hover,
 .sign-in-box .btn-sign-up:focus {
-    background-color: #992337;;
-    border-color: #992337;;
+    background-color: #006bb3;;
+    border-color: #006bb3;;
 }
 
 .sign-in-box .modal-dialog {
@@ -1939,8 +1939,8 @@ section.course-header-area {
 }
 
 .course-sidebar-text-box .buy-btns .btn-buy-now:hover, .course-sidebar-text-box .buy-btns .btn-buy-now:focus {
-    background-color: #992337;
-    border-color: #992337;
+    background-color: #006bb3;
+    border-color: #006bb3;
 }
 
 .course-sidebar-text-box .buy-btns .btn-add-cart {
@@ -3175,8 +3175,8 @@ section.my-courses-area {
 }
 
 .edit-rating-modal .modal-footer button:hover, .edit-rating-modal .modal-footer button:focus {
-    background-color: #992337 !important;
-    border-color: #992337 !important;
+    background-color: #006bb3 !important;
+    border-color: #006bb3 !important;
 }
 
 .edit-rating-modal .modal-footer button.previous {
@@ -3429,8 +3429,8 @@ section.cart-list-area {
 }
 
 .cart-sidebar .checkout-btn:hover, .cart-sidebar .checkout-btn:focus {
-    background-color: #992337 !important;
-    border-color: #992337 !important;
+    background-color: #006bb3 !important;
+    border-color: #006bb3 !important;
 }
 
 .cart-sidebar .coupon-field input {
@@ -3825,8 +3825,8 @@ section.user-dashboard-area {
 
 .message-details-box .message-details .message-footer .send-btn:hover,
 .message-details-box .message-details .message-footer .send-btn:focus {
-    background-color: #992337;
-    border-color: #992337;
+    background-color: #006bb3;
+    border-color: #006bb3;
 }
 
 .message-sender-list-box .message-sender-list .sender-image i {

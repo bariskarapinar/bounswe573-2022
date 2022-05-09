@@ -1749,7 +1749,7 @@ input:focus {
     course header
 */
 section.course-header-area {
-    background-color: #29303b;
+    background-color: #0099ff;
     color: #fff;
     padding: 60px 0;
 }
@@ -2612,7 +2612,7 @@ section.course-header-area {
 
 section.category-header-area {
     padding: 40px 0 30px;
-    background: #29303b;
+    background: #0099ff;
     color: #fff;
 }
 
@@ -2786,7 +2786,7 @@ section.category-course-list-area {
 }
 
 .course-box-2 .course-details .course-title {
-    color: #29303b;
+    color: #0099ff;
     display: block;
     font-weight: 700;
     margin-bottom: 4px;

@@ -1,0 +1,30 @@
+{% extends 'layouts/base.html' %}
+
+{% load static %}
+{% load humanize %}
+
+{% block content %}
+
+    <section class="home-banner-area" style="background-image: url({% static 'images/img.jpg' %})">
+        <div class="container-lg">
+            <div class="row">
+                <div class="col">
+                    <div class="home-banner-wrap">
+                        <h2><font color="#0099ff">E Learn Platform</font></h2>
+                        <p><font color="#0099ff">Online Learning Platform</font></p>
+                        <form class="" action="{% url 'elearn:search' %}" method="get">
+                            <div class="input-group">
+                                <input type="text" class="form-control" name="q"
+                                       placeholder=Search>
+                                <div class="input-group-append">
+                                    <button class="btn" type="submit"><i class="fas fa-search"></i></button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{% endblock %}

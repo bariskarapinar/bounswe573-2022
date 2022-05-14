@@ -12,34 +12,6 @@
                     <div class="course-header-wrap">
                         <h1 class="title">{{ course.title }}</h1>
                         <p class="subtitle">{{ course.short_description|truncatewords:20 }}</p>
-                       <!--
-                        <div class="rating-row">
-                            {#                            {{ --<span class="course-badge best-seller">Best seller</span>--}}#}
-                            {% for i in i|rjust:5 %}
-                                {% if forloop.counter <= 5 %}
-                                    <i class="fas fa-star filled" style="color: #f5c85b;"></i>
-                                {% else %}
-                                    <i class="fas fa-star"></i>
-                                {% endif %}
-                            {% endfor %}
-                            <span class="d-inline-block average-rating">5</span>
-                            <span>(20 ratings)</span>
-                            <span class="enrolled-num">
-                                100 students enrolled
-                            </span>
-                        </div> -->
-                        <!--
-                        <div class="created-row">
-                            {#                            {{ --<span class="created-by">--}}#}
-                            {#                            {{ --Created by--}}#}
-                            {#                            {{ --<a href="">first_name last_name</a>--}}#}
-                            {#                            {{ --</span>--}}#}
-                            <span class="last-updated-date">Created on {{ course.created_at|date }}</span>
-                            <span class="last-updated-date">Last updated on {{ course.updated_at|date }}</span>
-                            <span class="comment">
-                                <i class="fas fa-comment"></i>English
-                            </span>
-                        </div>-->
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -126,165 +98,9 @@
                             </div>
                         </div>
                     </div>
-
-
-                    <!--
-                    <div class="compare-box view-more-parent">
-                        <div class="view-more" onclick="viewMore(this)">+ View More</div>
-                        <div class="compare-title">Other Related Courses</div>
-                        <div class="compare-courses-wrap">
-
-                        </div>
-                    </div>
-                        -->
-
-                    <!--
-                    <div class="about-instructor-box">
-                        <div class="about-instructor-title">
-                            About the instructor
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <div class="about-instructor-image">
-                                    <img src="" alt="" class="img-fluid">
-                                    <ul>
-
-                                        <li>
-                                            <i class="fas fa-comment"></i><b>
-                                            100
-                                        </b> reviews
-                                        </li>
-                                        <li><i class="fas fa-user"></i><b>
-                                            120
-                                        </b> Students
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-play-circle"></i>
-                                            <b>
-                                                11
-                                            </b> Courses
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-lg-8">
-                                <div class="about-instructor-details view-more-parent">
-                                    <div class="view-more" onclick="viewMore(this)">+ View More</div>
-                                    <div class="instructor-name">
-                                        <a href=""></a>
-                                    </div>
-                                    <div class="instructor-title">
-                                        title
-                                    </div>
-                                    <div class="instructor-bio">
-                                        biography
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
-
-                    <!--
-                    <div class="student-feedback-box">
-                        <div class="student-feedback-title">
-                            Student feedback
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-6 col-lg-offset-4">
-                                <div class="average-rating">
-                                    <div class="num">
-                                        {#                                        {{ $course->average }}#}
-                                        3
-                                    </div>
-                                    <div class="rating">
-                                        {% for i in i|rjust:5 %}
-                                            {% if forloop.counter <= 5 %}
-                                                <i class="fas fa-star filled" style="color: #f5c85b;"></i>
-                                            {% else %}
-                                                <i class="fas fa-star" style="color: #abb0bb;"></i>
-                                            {% endif %}
-                                        {% endfor %}
-                                    </div>
-                                    <div class="title">Average rating</div>
-                                </div>
-                            </div>
-                            {#                            {{--<div class="col-lg-9">--}}#}
-                            {#                                {{--<div class="individual-rating">--}}#}
-                            {#                                    {{--<ul>--}}#}
-                            {#                                        {{--@for($i = 1; $i <= 5; $i++)--}}#}
-                            {#                                            {{--<li>--}}#}
-                            {#                                                {{--<div class="progress">--}}#}
-                            {#                                                    {{--<div class="progress-bar" style="width: 20%"></div>--}}#}
-                            {#                                                {{--</div>--}}#}
-                            {#                                                {{--<div>--}}#}
-                            {#                                                    {{--<span class="rating">--}}#}
-                            {#                                                        {{--@for($j = 1; $j <= (5 - $i); $j++)--}}#}
-                            {#                                                            {{--<i class="fas fa-star"></i>--}}#}
-                            {#                                                        {{--@endfor--}}#}
-                            {#                                                        {{--@for($j = 1; $j <= $i; $j++)--}}#}
-                            {#                                                            {{--<i class="fas fa-star filled"></i>--}}#}
-                            {#                                                        {{--@endfor--}}#}
-                            {#                                                    {{--</span>--}}#}
-                            {#                                                    {{--<span>30%</span>--}}#}
-                            {#                                                {{--</div>--}}#}
-                            {#                                            {{--</li>--}}#}
-                            {#                                        {{--@endfor--}}#}
-                            {#                                    {{--</ul>--}}#}
-                            {#                                {{--</div>--}}#}
-                            {#                            {{--</div>--}}#}
-                        </div>
-                        <div class="reviews">
-                            <div class="reviews-title">Reviews</div>
-                            <ul>
-                                <li>
-                                    <div class="row">
-                                        <div class="col-lg-4">
-                                            <div class="reviewer-details clearfix">
-                                                <div class="reviewer-img float-left">
-                                                    <img src="" alt="">
-                                                </div>
-                                                <div class="review-time">
-                                                    <div class="time">
-                                                        Review time
-                                                    </div>
-                                                    <div class="reviewer-name">
-                                                        Name
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-8">
-                                            <div class="review-details">
-                                                <div class="rating">
-                                                    {% for i in i|rjust:5 %}
-                                                        {% if forloop.counter <= 5 %}
-                                                            <i class="fas fa-star filled" style="color: #f5c85b;"></i>
-                                                        {% else %}
-                                                            <i class="fas fa-star" style="color: #abb0bb;"></i>
-                                                        {% endif %}
-                                                    {% endfor %}
-                                                </div>
-                                                <div class="review-text">
-                                                    Review
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div> -->
                 </div>
                 <div class="col-lg-4">
                     <div class="course-sidebar natural">
-                        <!--<div class="preview-video-box">
-                            <a data-toggle="modal" data-target="#CoursePreviewModal">
-                                <img src="{% static 'images/img.jpg' %}" alt="" class="img-fluid">
-                                <span class="preview-text">Preview this course</span>
-                                <span class="play-btn"></span>
-                            </a>
-                        </div>
-                        -->
                         <div class="course-sidebar-text-box">
                             <div class="price">
                                 <span class="current-price">
@@ -323,25 +139,6 @@
                                     {% endif %}
                                 {% endif %}
                             </div>
-
-                            <!--
-                            <div class="includes">
-                                <div class="title"><b>Includes:</b></div>
-                                <ul>
-                                    <li>
-                                        <i class="far fa-file-video"></i>
-                                        on demand videos
-                                    </li>
-                                    <li>
-                                        <i class="far fa-file"></i> 30 lessons
-                                    </li>
-                                    <li><i class="far fa-compass"></i>Full lifetime access
-                                    </li>
-                                    <li>
-                                        <i class="fas fa-mobile-alt"></i>Access on mobile and tv
-                                    </li>
-                                </ul>
-                            </div> -->
                         </div>
                     </div>
                 </div>

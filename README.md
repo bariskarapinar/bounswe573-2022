@@ -5,7 +5,7 @@ This repo is created for Boğaziçi University Software Engineering Master Progr
 
 Wiki Pages: 
 
-## Wiki [](https://github.com/gamebit34/bounswe573-2022/wiki)
+##  [Wiki](https://github.com/gamebit34/bounswe573-2022/wiki)
 
 ### 1. [Assignment: Project Repository Setup](https://github.com/gamebit34/bounswe573-2022/wiki/Assignment:-Project-Repository-Setup)
 
